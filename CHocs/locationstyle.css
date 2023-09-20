@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+/* isi*/
+
+section{
+    margin: 50px 120px;
+    position: relative;
+    padding : 10px 0px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+ h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px;
+
+}
+
+.loc{
+    padding : 10px 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.loc a{
+    text-decoration: none;
+}
+
+.loc h3{
+    color: black;
+font-weight: 700;
+
+}
+
+.loc h3:hover{
+    color: #8e5b2b;
+    cursor: pointer;
+}
+
+.locimg{
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+.locimg:hover{
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+p{
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.box{
+    padding : 20px 0px;
+}
+
+.locimg img{
+    width: 500px;
+    height: 400px;
+}
+
+
+/*Footer*/
+
+.footlogo{
+    background-color: #614124;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 20px 0px;
+}
+footer p{
+    color: white;
+    background-color: #614124;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.sosmed{
+    background-color: #614124;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 50px;
+}
+
+.s-img{
+    padding: 20px 50px;
+    height: 50px;
+    width: auto;
+}
+
+
+.copyright{
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+@media ( max-width : 768px){
+
+    
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+
+    .loc{
+        width: 100%;
+        padding: 0px;
+    }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+
+h3{
+    font-size: 24px;
+}
+p{
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.locimg img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.box{
+    padding : 10px 0px;
+}
+
+}
+
+@media(max-width: 476px){
+
+    
+a{
+    padding: 10px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+   
+    }
+
+    h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .sosmed img{
+        padding: 10px 25px;
+        height: 40px;
+        width: auto;
+    }
+    
+    .copyright{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    
+    
+}
